@@ -1,6 +1,6 @@
-import random
+from random import randint
 import time
-num = random.randrange(0,2)
+num = randint(0,2)
 options = ["rock","paper","scissors"]
 com_choice = options[num]
 user_choice = raw_input("Enter your choice")
